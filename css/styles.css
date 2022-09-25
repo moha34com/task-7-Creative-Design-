@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url('../img/backg.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.main .navbar .nav-logo{
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+.main .navbar{
+    display: flex;    
+}
+.main .navbar .nav-links{
+    width: 80%;
+    text-align: right;
+}
+.main .navbar .nav-links li{
+    display: inline-block;
+    margin: 20px 30px;
+
+}
+.main .navbar .nav-links li a{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+}
+.box{
+    
+    height: 200px;
+    width: 600px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.main .box .box-main-head{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+
+}
+.main .box .box-main-para{
+    text-align: center;
+    color: white;
+    font-size: larger;
+
+}
+.main .box .box-main-button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main .box .box-main-button li{
+    display: inline-block;
+    border: 1px solid white;
+    margin: 5px;
+    padding: 20px;
+    
+}
+.main .box .box-main-button li a{
+    text-decoration: none;
+    color: white;
+}
